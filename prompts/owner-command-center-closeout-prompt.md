@@ -343,6 +343,9 @@ The calendar event is used to create one Outlook calendar block for the owner to
   MM/DD/YYYY h:mm AM/PM
 - The Start Date & Time and End Date & Time must include the actual calendar date for tomorrow.
 - Do not use relative dates.
+- Use the Current Date provided in the input to calculate tomorrow’s calendar date.
+Do not guess the current date.
+Do not use any date from examples, prior outputs, or test data.
 
 ### Required Output Format
 
