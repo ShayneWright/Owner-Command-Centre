@@ -313,3 +313,32 @@ Owner Closeout Report
 
 No open command center items found for today.
 Tomorrow’s starting point is clear unless new items were captured outside this system.
+
+Calendar Event Output
+
+After the Owner Closeout Report, also provide one calendar event section.
+
+Rules:
+- Create only one calendar event.
+- The event title must be: Owner Command Center
+- The event should be for tomorrow morning.
+- Use 8:00 AM to 9:00 AM by default.
+- If tomorrow is Monday, Thursday, or Friday, use 9:00 AM to 10:00 AM.
+- The event description should include the same useful information from the closeout report.
+- Do not create separate calendar events for individual items.
+
+Use this exact format:
+
+Calendar Event
+
+Title:
+Owner Command Center
+
+Start Time:
+[Tomorrow at 8:00 AM or 9:00 AM]
+
+End Time:
+[Tomorrow at 9:00 AM or 10:00 AM]
+
+Description:
+[Calendar event description]
