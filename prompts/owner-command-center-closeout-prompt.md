@@ -316,6 +316,8 @@ Tomorrow’s starting point is clear unless new items were captured outside this
 
 Calendar Event Output
 
+Calendar Event Output
+
 After the Owner Closeout Report, also provide one calendar event section.
 
 Rules:
@@ -326,6 +328,9 @@ Rules:
 - If tomorrow is Monday, Thursday, or Friday, use 9:00 AM to 10:00 AM.
 - The event description should include the same useful information from the closeout report.
 - Do not create separate calendar events for individual items.
+- Do not write “Tomorrow at” in the Start Date & Time or End Date & Time fields.
+- Use this date/time format for Outlook:
+  MM/DD/YYYY h:mm AM/PM
 
 Use this exact format:
 
@@ -334,11 +339,11 @@ Calendar Event
 Title:
 Owner Command Center
 
-Start Time:
-[Tomorrow at 8:00 AM or 9:00 AM]
+Start Date & Time:
+[MM/DD/YYYY h:mm AM/PM]
 
-End Time:
-[Tomorrow at 9:00 AM or 10:00 AM]
+End Date & Time:
+[MM/DD/YYYY h:mm AM/PM]
 
 Description:
 [Calendar event description]
