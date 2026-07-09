@@ -330,7 +330,7 @@ The calendar event is used to create one Outlook calendar block for the owner to
 - The event should be for tomorrow morning.
 - Use 8:00 AM to 9:00 AM by default.
 - If tomorrow is Monday, Thursday, or Friday, use 9:00 AM to 10:00 AM.
-- The event description should include the useful action information from the closeout report.
+- The event description should include the full closeout report also sent by email.
 - Include Top 3 Priorities, Client Items, Business / Admin Tasks, Reminders / Follow-Ups, and Suggested Starting Point when available.
 - Do not include Ideas / Future Consideration unless they are High priority, due tomorrow, or clearly time-sensitive.
 - Do not include Needs Cleanup unless the unclear item blocks tomorrow’s work.
