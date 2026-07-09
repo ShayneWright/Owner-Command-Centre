@@ -314,26 +314,37 @@ Owner Closeout Report
 No open command center items found for today.
 Tomorrow’s starting point is clear unless new items were captured outside this system.
 
-Calendar Event Output
-
-- Do not use timezone names like EST, EDT, or Eastern.
-- Do not write “Tomorrow at” in the Start Date & Time or End Date & Time fields.
-- Use this exact date/time format:
-  YYYY-MM-DDTHH:mm:ss-04:00
+## Calendar Event Output
 
 After the Owner Closeout Report, also provide one calendar event section.
 
-Rules:
+### Purpose
+
+The calendar event is used to create one Outlook calendar block for the owner to work through the next morning’s command center items.
+
+### Calendar Event Rules
+
 - Create only one calendar event.
+- Do not create separate calendar events for individual items.
 - The event title must be: Owner Command Center
 - The event should be for tomorrow morning.
 - Use 8:00 AM to 9:00 AM by default.
 - If tomorrow is Monday, Thursday, or Friday, use 9:00 AM to 10:00 AM.
-- The event description should include the same useful information from the closeout report.
-- Do not create separate calendar events for individual items.
+- The event description should include the useful action information from the closeout report.
+- Include Top 3 Priorities, Client Items, Business / Admin Tasks, Reminders / Follow-Ups, and Suggested Starting Point when available.
+- Do not include Ideas / Future Consideration unless they are High priority, due tomorrow, or clearly time-sensitive.
+- Do not include Needs Cleanup unless the unclear item blocks tomorrow’s work.
+
+### Outlook Date / Time Rules
+
+- Do not use timezone names like EST, EDT, Eastern, or America/New_York.
 - Do not write “Tomorrow at” in the Start Date & Time or End Date & Time fields.
-- Use this date/time format for Outlook:
+- Use this exact Outlook-friendly date/time format:
   MM/DD/YYYY h:mm AM/PM
+- The Start Date & Time and End Date & Time must include the actual calendar date for tomorrow.
+- Do not use relative dates.
+
+### Required Output Format
 
 Use this exact format:
 
@@ -343,10 +354,10 @@ Title:
 Owner Command Center
 
 Start Date & Time:
-[YYYY-MM-DDTHH:mm:ss-04:00]
+[MM/DD/YYYY h:mm AM/PM]
 
 End Date & Time:
-[YYYY-MM-DDTHH:mm:ss-04:00]
+[MM/DD/YYYY h:mm AM/PM]
 
 Description:
 [Calendar event description]
