@@ -316,7 +316,10 @@ Tomorrow’s starting point is clear unless new items were captured outside this
 
 Calendar Event Output
 
-Calendar Event Output
+- Do not use timezone names like EST, EDT, or Eastern.
+- Do not write “Tomorrow at” in the Start Date & Time or End Date & Time fields.
+- Use this exact date/time format:
+  YYYY-MM-DDTHH:mm:ss-04:00
 
 After the Owner Closeout Report, also provide one calendar event section.
 
@@ -340,10 +343,10 @@ Title:
 Owner Command Center
 
 Start Date & Time:
-[MM/DD/YYYY h:mm AM/PM]
+[YYYY-MM-DDTHH:mm:ss-04:00]
 
 End Date & Time:
-[MM/DD/YYYY h:mm AM/PM]
+[YYYY-MM-DDTHH:mm:ss-04:00]
 
 Description:
 [Calendar event description]
